@@ -8,7 +8,7 @@
 </script>
 
 <template>
-  <main class="flex justify-center min-h-screen w-full bg-bones dark:bg-carbon text-carbon dark:text-bones">
+  <main class="flex justify-center min-h-screen w-full bg-bones dark:bg-carbon">
     <div>
       <Profile />
     </div>
