@@ -3,8 +3,6 @@
 
     const isDark = useDark()
     const toggleDark = useToggle(isDark)
-
-    console.log(isDark.value)
 </script>
 
 <template>
