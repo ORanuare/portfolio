@@ -1,11 +1,26 @@
 <script setup>
   import { RouterView } from 'vue-router'
+  import { ref, onBeforeMount } from 'vue';
   import Profile from '@/components/Profile.vue'
   import Tabs from '@/components/Tabs.vue';
+
+  const isRendered = ref(false)
+
+  onBeforeMount(async() => {
+      if(document.cookie.split(';').some((item) => item.trim().startsWith('locale='))) {
+          isRendered.value = true
+          return
+      }else{
+        const lang = navigator.language || navigator.userLanguage
+        const locale = lang === 'es' ? 'es' : 'en'
+        document.cookie = `locale=${locale}`
+        location.reload()
+      }
+    })
 </script>
 
 <template>
-  <main class="flex justify-center min-h-screen w-full bg-bones dark:bg-carbon">
+  <main v-if="isRendered" class="flex justify-center min-h-screen w-full bg-bones dark:bg-carbon">
 
     <div class="flex w-[85%] justify-end py-24">
       <Profile />
