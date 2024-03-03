@@ -33,7 +33,7 @@
         <!-- Contact Links -->
         <div class="flex flex-col gap-4">
             <div class="flex gap-12 text-sm cursor-pointer border-b border-transparent hover:border-leaf w-max duration-200 ease-in-out text-leaf font-bold">
-                <a href="mailto:contact@oscarranuare.dev">{{ $t('contact-email') }}</a>
+                <a href="mailto:contact@oscarranuare.dev">{{ $t('contact-email') }} contact@oscarranuare.dev</a>
             </div>
         </div>
     </div>
