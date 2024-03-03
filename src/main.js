@@ -5,8 +5,8 @@ import { createPinia } from 'pinia'
 import { createI18n } from 'vue-i18n'
 
 // Locale imports
-import en from '@/locales/en.json'
-import es from '@/locales/es.json'
+import en_loc from '@/locales/en.json'
+import es_loc from '@/locales/es.json'
 
 import App from './App.vue'
 import router from './router'
@@ -22,9 +22,11 @@ const localeValue = document.cookie.split('locale=')[1] || 'en'
 const i18n = createI18n({
   legacy: false,
   locale: localeValue,
+  warnHtmlInMessage: "off",
+  fallbackLocale: 'en',
   messages: {
-    en: en,
-    es: es
+    en: en_loc,
+    es: es_loc
   }
 })
 
