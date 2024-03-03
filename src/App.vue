@@ -11,7 +11,11 @@
       <Profile />
       <div class="flex flex-col gap-16 w-[60%] overflow-auto">
           <Tabs />
-          <RouterView />
+          <router-view v-slot="{ Component }">
+            <transition name="fade" mode="out-in">
+              <component :is="Component" />
+            </transition>
+          </router-view>
       </div>
     </div>
   </main>
