@@ -2,13 +2,15 @@
     import ThemeToggler from '@/components/ThemeToggler.vue';
     import Tooltip from '@/components/Tooltip.vue';
     import techStack from '@/data/stacks.json';
+    import Languages from '@/components/Languages.vue';
 </script>
 
 <template>
     <div class="flex flex-col justify-between fixed left-36 w-[37rem] h-[50rem]">
         <!-- Button to toggle dark/light theme -->
-        <div>
+        <div class="flex items-center gap-4">
             <ThemeToggler />
+            <Languages />
         </div>
 
         <!-- Basic information -->
