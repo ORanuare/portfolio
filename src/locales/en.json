@@ -1,0 +1,27 @@
+{
+    "developer-tag":"Full Stack Web Developer",
+    "tech-stack": "My teck stack",
+    "contact-email": "Contact me through contact@oscarranuare.dev",
+    "languages": "Languages",
+    "projects": "Projects",
+    "about-me": "About me",
+    "about-me-message": "<h5>Hey there,</h5><br><p>I'm Oscar Ranuare, a passionate full stack web developer with a talent for turning ideas into digital reality. <b>With over five years of self-taught programming experience</b> under my belt, I've dived into the intricate world of web development, honing my skills across various technologies and frameworks.</p><br><p>From crafting seamless backend solutions with Python and Django to architecting lightning-fast APIs using FastAPI, I thrive on the challenge of <b>building robust, scalable systems</b> that deliver exceptional user experiences. On the frontend, I wield the power of JavaScript and TypeScript into web applications, leveraging frameworks like Vue.js to create <b>dynamic interfaces that captivate and engage users</b>.</p><br><p>But it's not just about the code for me – I'm <b>equally passionate about the aesthetics and user interface design</b>, embracing modern design principles with tools like Tailwind CSS to create sleek, responsive layouts.</p><br><p>When it comes to version control and collaboration, I'm no stranger to Git and GitHub, seamlessly <b>integrating into development workflows to streamline processes and facilitate teamwork</b>. And let's not forget about databases – I'm well-versed in PostgreSQL and some MongoDB, ensuring data is managed efficiently and securely across projects.</p><br><p>Whether it's deploying applications on Heroku, harnessing the power of cloud services like Google Cloud and AWS, or navigating the world of Linux, I'm <b>always eager to explore new technologies and push the boundaries</b> of what's possible in web development.</p><br><p>Let's collaborate and bring your vision to life – drop me a line, and let's make magic happen!</p>",
+    "projects-list":{
+        "wiigo-us":{
+            "title": "Wiigo US Appointments",
+            "description": "This project is a web application that allows Wiigo US clients to schedule appointments with the team. You can select the date, time and the team member you want to meet with. Sends email reminders, and handles the agents availability."
+        },
+        "clients-scrapper":{
+            "title": "Clients Scrapper",
+            "description": "With the help of Google Maps API, this app is able to search for potential clients in a specific area with specific keywords. It draws an area on the map and then searches for clients in that area, scrapes emails and phone numbers, and then exports the data to a CSV file."
+        },
+        "winseller":{
+            "title": "Winseller",
+            "description": "This project is responsible to scrape data from different e-commerce websites and provide insight information to the app. This way, our prices and stock were always updated automatically from our suppliers."
+        },
+        "boostshop":{
+            "title": "Boostshop",
+            "description": "A SaaS platform for businesses to manage their inventory, orders, customers and products. This was my first project as a full-stack developer."
+        }
+    }
+}

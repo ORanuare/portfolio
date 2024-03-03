@@ -20,7 +20,7 @@
 <template>
     <div class="flex items-center gap-1 cursor-pointer relative" id="languages" @mouseenter="handleMouseEnter" @mouseleave="handleMouseLeave" @click="handleMouseEnter">
         <v-icon name="io-language" class="text-leaf" scale="1.5"/>
-        <span class="text-leaf font-black">Languages</span>
+        <span class="text-leaf font-black">{{ $t('languages') }}</span>
         
         <LanguagesDropdown :showDropdown="showDropdown"/>
     </div>
