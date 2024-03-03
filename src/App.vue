@@ -22,9 +22,9 @@
 <template>
   <main v-if="isRendered" class="flex justify-center min-h-screen w-full bg-bones dark:bg-carbon">
 
-    <div class="flex w-[85%] justify-end py-24">
+    <div class="flex flex-col md:flex-row w-[95%] xl:w-[85%] justify-end py-24">
       <Profile />
-      <div class="flex flex-col gap-16 w-[60%] overflow-auto">
+      <div class="flex flex-col gap-16 w-full md:w-[50%] xl:w-[55%] overflow-auto mt-24 md:mt-0">
           <Tabs />
           <router-view v-slot="{ Component }">
             <transition name="fade" mode="out-in">
