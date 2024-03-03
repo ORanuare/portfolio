@@ -1,0 +1,77 @@
+[
+    {
+        "name": "Python",
+        "icon": "vi-file-type-python"
+    },
+    {
+        "name": "Django",
+        "icon": "vi-file-type-django"
+    },
+    {
+        "name": "FastAPI",
+        "icon": "si-fastapi",
+        "customClass": "text-leaf"
+    },
+    {
+        "name": "JavaScript",
+        "icon": "vi-file-type-js-official"
+    },
+    {
+        "name": "TypeScript",
+        "icon": "vi-file-type-typescript-official"
+    },
+    {
+        "name": "HTML",
+        "icon": "vi-file-type-html"
+    },
+    {
+        "name": "CSS",
+        "icon": "vi-file-type-css"
+    },
+    {
+        "name": "Vue.js",
+        "icon": "vi-file-type-vue"
+    },
+    {
+        "name": "Tailwind CSS",
+        "icon": "vi-file-type-tailwind"
+    },
+    {
+        "name": "npm",
+        "icon": "vi-file-type-npm"
+    },
+    {
+        "name": "Jinja",
+        "icon": "vi-file-type-jinja"
+    },
+    {
+        "name": "Git",
+        "icon": "vi-file-type-git"
+    },
+    {
+        "name": "GitHub",
+        "icon": "co-github",
+        "customClass": "text-carbon dark:text-bones"
+    },
+    {
+        "name": "PostgreSQL",
+        "icon": "vi-file-type-pgsql"
+    },
+    {
+        "name": "Linux",
+        "icon": "fc-linux"
+    },
+    {
+        "name": "Heroku",
+        "icon": "si-heroku",
+        "customClass": "text-heroku"
+    },
+    {
+        "name": "Google Cloud",
+        "icon": "fc-google"
+    },
+    {
+        "name": "AWS",
+        "icon": "vi-file-type-aws"
+    }
+]
