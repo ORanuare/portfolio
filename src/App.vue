@@ -1,12 +1,12 @@
 <script setup>
   import { RouterView } from 'vue-router'
-  import { ref, onMounted } from 'vue';
+  import { ref, onBeforeMount } from 'vue';
   import Profile from '@/components/Profile.vue'
   import Tabs from '@/components/Tabs.vue';
 
   const isRendered = ref(false)
 
-  onMounted(() => {
+  onBeforeMount(() => {
       try{
         if(document.cookie.split(';').some((item) => item.trim().startsWith('locale='))) {
             isRendered.value = true
