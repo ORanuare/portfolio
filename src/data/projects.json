@@ -1,5 +1,12 @@
 [
     {
+        "title": "Clients Scrapper",
+        "visibility": "private",
+        "description": "This project uses Google Maps API to search for potential clients in a specific area with specific keywords. It draws an area on the map and then searches for clients in that area, scrapes emails and phone numbers, and then exports the data to a CSV file.",
+        "image": "/projects/clients-scrapper.webp",
+        "tags": ["Python", "Django", "Selenium", "Google Maps API", "CSV", "Linux", "JavaScript", "CSS", "HTML", "Heroku"]
+    },
+    {
         "title": "Boostshop",
         "visibility": "public",
         "description": "A SaaS platform for businesses to manage their inventory, orders, and customers. This was my first project as a full-stack developer. I was responsible for the entire front-end and back-end development.",
