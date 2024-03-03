@@ -41,8 +41,9 @@
         "icon": "vi-file-type-npm"
     },
     {
-        "name": "Jinja",
-        "icon": "vi-file-type-jinja"
+        "name": "Vercel",
+        "icon": "io-logo-vercel",
+        "customClass": "text-carbon dark:text-bones"
     },
     {
         "name": "Git",
