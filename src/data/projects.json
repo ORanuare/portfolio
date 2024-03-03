@@ -7,18 +7,18 @@
         "tags": ["Python", "Django", "Selenium", "Google Maps API", "CSV", "Linux", "JavaScript", "CSS", "HTML", "Heroku"]
     },
     {
+        "title": "Winseller",
+        "visibility": "private",
+        "description": "This project is responsible to scrape data from different e-commerce websites and provide insight information to the app. This way, our prices and stock were always updated automatically from our suppliers.",
+        "image": "/projects/winseller.webp",
+        "tags": ["Python", "Django", "PostgreSQL", "Google Cloud", "AWS", "JavaScript", "CSS", "HTML", "Linux"]
+    },
+    {
         "title": "Boostshop",
         "visibility": "public",
         "description": "A SaaS platform for businesses to manage their inventory, orders, and customers. This was my first project as a full-stack developer. I was responsible for the entire front-end and back-end development.",
         "image": "/projects/boostshop.webp",
         "link": "https://boostshop.cl",
         "tags": ["Python", "Django", "PostgreSQL", "AWS", "Google Cloud", "JavaScript", "CSS", "HTML", "Linux"]
-    },
-    {
-        "title": "Winseller",
-        "visibility": "private",
-        "description": "This project is responsible to scrape data from different e-commerce websites and provide insight information to the app. This way, our prices and stock were always updated automatically from our suppliers.",
-        "image": "/projects/winseller.webp",
-        "tags": ["Python", "Django", "PostgreSQL", "Google Cloud", "AWS", "JavaScript", "CSS", "HTML", "Linux"]
     }
 ]
