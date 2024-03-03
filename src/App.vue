@@ -9,7 +9,7 @@
 
     <div class="flex w-[85%] justify-end py-24">
       <Profile />
-      <div class="flex flex-col gap-16 w-[60%] min-h-screen overflow-auto">
+      <div class="flex flex-col gap-16 w-[60%] overflow-auto">
           <Tabs />
           <RouterView />
       </div>
