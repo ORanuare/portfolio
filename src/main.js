@@ -17,11 +17,11 @@ import { ViFileTypePython, ViFileTypeDjango, SiFastapi, ViFileTypeJsOfficial, Vi
 addIcons( ViFileTypePython, ViFileTypeDjango, SiFastapi, ViFileTypeJsOfficial, ViFileTypeVue, ViFileTypeTailwind, ViFileTypeHtml, ViFileTypeCss, ViFileTypeAws, ViFileTypeGit, ViFileTypePgsql, ViFileTypeTypescriptOfficial, FcLinux, CoGithub, MdArrowdropdownRound, SiHeroku, FcGoogle, ViFileTypeNpm, IoLogoVercel, MdMinimizeOutlined, FaExternalLinkAlt, FaLock, IoLanguage, CoMx, CoUs );
 
 // i18n configuration
-const localeValue = document.cookie.split('locale=')[1] || 'en'
+const locale = localStorage.getItem('locale') || (navigator.language.startsWith('es') ? 'es' : 'en');
 
 const i18n = createI18n({
   legacy: false,
-  locale: localeValue,
+  locale: locale,
   warnHtmlInMessage: "off",
   fallbackLocale: 'en',
   messages: {

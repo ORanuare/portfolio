@@ -7,22 +7,17 @@
   const isRendered = ref(false)
 
   onBeforeMount(() => {
-      try{
-        if(document.cookie.split(';').some((item) => item.trim().startsWith('locale='))) {
-            isRendered.value = true
-            return
-        }else{
-          const lang = navigator.language || navigator.userLanguage
-          const locale = lang === 'es' ? 'es' : 'en'
-          document.cookie = `locale=${locale}`
-          location.reload()
-        }
-      }catch(e){
-        const locale = 'en'
-        document.cookie = `locale=${locale}`
-        location.reload()
-      }
-    })
+    try {
+        const locale = localStorage.getItem('locale') || (navigator.language.startsWith('es') ? 'es' : 'en');
+        localStorage.setItem('locale', locale);
+        document.cookie = `locale=${locale}`;
+    } catch (e) {
+        console.error('Error setting locale:', e);
+    }
+    finally {
+        isRendered.value = true;
+    }
+  });
 </script>
 
 <template>
@@ -39,5 +34,8 @@
           </router-view>
       </div>
     </div>
+  </main>
+  <main v-else class="flex justify-center items-center min-h-screen w-full bg-bones dark:bg-carbon">
+
   </main>
 </template>

@@ -20,7 +20,8 @@
     ]
 
     const changeLocale = (locale) => {
-        document.cookie = `locale=${locale}`
+        localStorage.setItem('locale', locale);
+        document.cookie = `locale=${locale}`;
         location.reload()
     }
 </script>
