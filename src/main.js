@@ -12,9 +12,9 @@ import App from './App.vue'
 import router from './router'
 
 import { OhVueIcon, addIcons } from "oh-vue-icons";
-import { ViFileTypePython, ViFileTypeDjango, SiFastapi, ViFileTypeJsOfficial, ViFileTypeVue, ViFileTypeTailwind, ViFileTypeHtml, ViFileTypeCss, ViFileTypeAws, ViFileTypeGit, ViFileTypePgsql, ViFileTypeTypescriptOfficial, FcLinux, CoGithub, MdArrowdropdownRound, SiHeroku, FcGoogle, ViFileTypeNpm, IoLogoVercel, MdMinimizeOutlined, FaExternalLinkAlt, FaLock, IoLanguage } from "oh-vue-icons/icons";
+import { ViFileTypePython, ViFileTypeDjango, SiFastapi, ViFileTypeJsOfficial, ViFileTypeVue, ViFileTypeTailwind, ViFileTypeHtml, ViFileTypeCss, ViFileTypeAws, ViFileTypeGit, ViFileTypePgsql, ViFileTypeTypescriptOfficial, FcLinux, CoGithub, MdArrowdropdownRound, SiHeroku, FcGoogle, ViFileTypeNpm, IoLogoVercel, MdMinimizeOutlined, FaExternalLinkAlt, FaLock, IoLanguage, CoMx, CoUs } from "oh-vue-icons/icons";
 
-addIcons( ViFileTypePython, ViFileTypeDjango, SiFastapi, ViFileTypeJsOfficial, ViFileTypeVue, ViFileTypeTailwind, ViFileTypeHtml, ViFileTypeCss, ViFileTypeAws, ViFileTypeGit, ViFileTypePgsql, ViFileTypeTypescriptOfficial, FcLinux, CoGithub, MdArrowdropdownRound, SiHeroku, FcGoogle, ViFileTypeNpm, IoLogoVercel, MdMinimizeOutlined, FaExternalLinkAlt, FaLock, IoLanguage );
+addIcons( ViFileTypePython, ViFileTypeDjango, SiFastapi, ViFileTypeJsOfficial, ViFileTypeVue, ViFileTypeTailwind, ViFileTypeHtml, ViFileTypeCss, ViFileTypeAws, ViFileTypeGit, ViFileTypePgsql, ViFileTypeTypescriptOfficial, FcLinux, CoGithub, MdArrowdropdownRound, SiHeroku, FcGoogle, ViFileTypeNpm, IoLogoVercel, MdMinimizeOutlined, FaExternalLinkAlt, FaLock, IoLanguage, CoMx, CoUs );
 
 // i18n configuration
 const localeValue = document.cookie.split('locale=')[1] || 'en'
