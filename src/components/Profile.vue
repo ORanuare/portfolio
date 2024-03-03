@@ -30,7 +30,7 @@
 
         <!-- Contact Links -->
         <div class="flex flex-col gap-4">
-            <div class="flex gap-12 text-carbon dark:text-bones/90 text-sm cursor-pointer border-b border-transparent hover:border-leaf w-max duration-200 ease-in-out">
+            <div class="flex gap-12 text-sm cursor-pointer border-b border-transparent hover:border-leaf w-max duration-200 ease-in-out text-leaf font-bold">
                 <a href="mailto:contact@oscarranuare.dev">Contact me through contact@oscarranuare.dev</a>
             </div>
         </div>
