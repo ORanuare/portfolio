@@ -7,12 +7,18 @@
   const isRendered = ref(false)
 
   onMounted(() => {
-      if(document.cookie.split(';').some((item) => item.trim().startsWith('locale='))) {
-          isRendered.value = true
-          return
-      }else{
-        const lang = navigator.language || navigator.userLanguage
-        const locale = lang === 'es' ? 'es' : 'en'
+      try{
+        if(document.cookie.split(';').some((item) => item.trim().startsWith('locale='))) {
+            isRendered.value = true
+            return
+        }else{
+          const lang = navigator.language || navigator.userLanguage
+          const locale = lang === 'es' ? 'es' : 'en'
+          document.cookie = `locale=${locale}`
+          location.reload()
+        }
+      }catch(e){
+        const locale = 'en'
         document.cookie = `locale=${locale}`
         location.reload()
       }
