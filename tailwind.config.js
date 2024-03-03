@@ -13,6 +13,9 @@ export default {
         leaf: '#44bd87',
         heroku: '#534292',
       },
+      fontSize: {
+        '2xs': '.65rem',
+      },
     },
   },
   plugins: [],
