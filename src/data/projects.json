@@ -1,0 +1,9 @@
+[
+    {
+        "title": "Boostshop",
+        "description": "A SaaS platform for businesses to manage their inventory, orders, and customers. This was my first project as a full-stack developer. I was responsible for the entire front-end and back-end development.",
+        "image": "/projects/boostshop.webp",
+        "link": "https://boostshop.cl",
+        "tags": ["Python", "Django", "PostgreSQL", "Google Cloud", "JavaScript", "CSS", "HTML", "Linux"]
+    }
+]
