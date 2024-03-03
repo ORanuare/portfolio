@@ -11,6 +11,7 @@ export default {
         carbon: '#1f2424',
         bones: '#f9f9f9',
         leaf: '#44bd87',
+        heroku: '#534292',
       },
     },
   },
