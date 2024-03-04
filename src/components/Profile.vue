@@ -6,7 +6,7 @@
 </script>
 
 <template>
-    <div class="flex flex-col justify-between md:fixed md:left-8 xl:left-16 2xl:left-36 w-full h-[40rem] md:w-[20rem] xl:w-[30rem] 2xl:w-[37rem] 2xl:h-[50rem]">
+    <div class="flex flex-col justify-between md:fixed md:left-8 xl:left-16 2xl:left-36 w-full h-[40rem] md:h-full md:w-[20rem] xl:w-[30rem] 2xl:w-[37rem]">
         <!-- Button to toggle dark/light theme -->
         <div class="flex items-center gap-4">
             <ThemeToggler />
