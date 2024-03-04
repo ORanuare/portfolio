@@ -1,35 +1,11 @@
-# dev_portfolio
+# Portfolio
 
-This template should help get you started developing with Vue 3 in Vite.
+Welcome to my portfolio repository! This repository showcases my projects. Feel free to explore the projects, provide feedback or use this to build your own portfolio.
 
-## Recommended IDE Setup
+## Contact
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+Feel free to reach out to me if you have any questions, feedback, or collaboration opportunities:
 
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+- **Name**: Oscar Ranuare
+- **Email**: contact@oscarranuare.dev
+- **Portfolio Website**: https://oscarranuare.dev/
