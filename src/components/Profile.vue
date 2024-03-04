@@ -3,14 +3,21 @@
     import Tooltip from '@/components/Tooltip.vue';
     import techStack from '@/data/stacks.json';
     import Languages from '@/components/Languages.vue';
+    import Contact from '@/components/Contact.vue';
 </script>
 
 <template>
     <div class="flex flex-col justify-between md:fixed md:left-8 xl:left-16 2xl:left-36 w-full h-[40rem] md:h-[75%] md:w-[20rem] xl:w-[30rem] 2xl:w-[37rem]">
-        <!-- Button to toggle dark/light theme -->
-        <div class="flex items-center gap-4">
-            <ThemeToggler />
-            <Languages />
+        
+        <!-- Header profile -->
+        <div class="flex justify-between items-center gap-4">
+            <!-- Button to toggle dark/light theme -->
+            <div class="flex gap-4">
+                <ThemeToggler />
+                <Languages />
+            </div>
+            <!-- Contact information -->
+            <Contact />
         </div>
 
         <!-- Basic information -->
