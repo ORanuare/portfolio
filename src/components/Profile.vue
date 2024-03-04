@@ -6,7 +6,7 @@
 </script>
 
 <template>
-    <div class="flex flex-col justify-between md:fixed md:left-8 xl:left-16 2xl:left-36 w-full h-[40rem] md:h-full md:w-[20rem] xl:w-[30rem] 2xl:w-[37rem]">
+    <div class="flex flex-col justify-between md:fixed md:left-8 xl:left-16 2xl:left-36 w-full h-[40rem] md:h-[75%] md:w-[20rem] xl:w-[30rem] 2xl:w-[37rem]">
         <!-- Button to toggle dark/light theme -->
         <div class="flex items-center gap-4">
             <ThemeToggler />
@@ -27,13 +27,6 @@
                     <Tooltip :tooltip="stack.name" :tooltipId="'box_'+stack.name"/>
                     <v-icon :class="stack.customClass" :name="stack.icon" scale="2.5" />
                 </div>
-            </div>
-        </div>
-
-        <!-- Contact Links -->
-        <div class="flex flex-col gap-4">
-            <div class="flex gap-12 text-sm cursor-pointer border-b border-transparent hover:border-leaf w-max duration-200 ease-in-out text-leaf font-bold">
-                <a href="mailto:contact@oscarranuare.dev">{{ $t('contact-email') }} contact@oscarranuare.dev</a>
             </div>
         </div>
     </div>
