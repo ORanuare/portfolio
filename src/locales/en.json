@@ -9,7 +9,7 @@
     "projects-list":{
         "wiigo-us":{
             "title": "Wiigo US Appointments",
-            "description": "This project is a web application that allows Wiigo US clients to schedule appointments with the team. You can select the date, time and the team member you want to meet with. Sends email reminders, and handles the agents availability."
+            "description": "Web application that allows Wiigo US clients to schedule appointments with the team. You can select the date, time and the team member you want to meet with. Sends email reminders, and handles the agents availability."
         },
         "clients-scrapper":{
             "title": "Clients Scrapper",
@@ -17,7 +17,7 @@
         },
         "winseller":{
             "title": "Winseller",
-            "description": "This project is responsible to scrape data from different e-commerce websites and provide insight information to the app. This way, our prices and stock were always updated automatically from our suppliers."
+            "description": "Responsible to scrape data from different e-commerce websites and provide insight information to the app. This way, our prices and stock were always updated automatically from our suppliers."
         },
         "boostshop":{
             "title": "Boostshop",

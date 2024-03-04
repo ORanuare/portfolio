@@ -9,7 +9,7 @@
     "projects-list":{
         "wiigo-us": {
             "title": "Agenda Wiigo US",
-            "description": "Este proyecto es una aplicación web que permite a los clientes de Wiigo US agendar videollamadas con el equipo.Puedes seleccionar una fecha, hora y el representante que te atenderá. Envía recordatorios por correo, y gestiona la disponibilidad de los representantes."
+            "description": "Es una aplicación web que permite a los clientes de Wiigo US agendar videollamadas con el equipo.Puedes seleccionar una fecha, hora y el representante que te atenderá. Envía recordatorios por correo, y gestiona la disponibilidad de los representantes."
         },
         "clients-scrapper":{
             "title": "Buscador de Clientes",
@@ -17,7 +17,7 @@
         },
         "winseller":{
             "title": "Winseller",
-            "description": "Este proyecto busca los datos de diferentes sitios web e-commerce y obtiene información útil que almacena. De esta manera, los precios, stocks siempre se actualizan automaticamente de la información de los proveedores."
+            "description": "Busca datos de diferentes sitios web e-commerce y obtiene información útil que almacena. De esta manera, los precios, stocks siempre se actualizan automaticamente de la información de los proveedores."
         },
         "boostshop":{
             "title": "Boostshop",
