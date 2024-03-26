@@ -5,7 +5,8 @@
 
     const tabs = [
         { name: 'projects', label: 'projects', path: '/'},
-        { name: 'about', label: 'about-me', path: '/about'}
+        { name: 'about', label: 'about-me', path: '/about'},
+        { name: 'experience', label: 'experience', path: '/experience'}
     ]
 
     const isCurrentRoute = (routeName) => {
