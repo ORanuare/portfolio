@@ -48,8 +48,8 @@
 
 <template>
     <transition name="fade" mode="out-in">
-        <div v-if="tooltip && showTooltip" class="absolute flex text-center items-center justify-center -top-10 min-w-12 text-bones bg-carbon dark:text-carbon dark:bg-bones rounded-lg" :class="customClass">
-            <v-icon name="md-arrowdropdown-round" scale="2" class="absolute -bottom-5 left-0 text-carbon dark:text-bones"/>
+        <div v-if="tooltip && showTooltip" class="absolute flex text-center items-center justify-center right-0 -top-11 min-w-12 text-bones bg-carbon dark:text-carbon dark:bg-bones rounded-lg" :class="customClass">
+            <v-icon name="md-arrowdropdown-round" scale="2" class="absolute -bottom-5 right-0 text-carbon dark:text-bones"/>
             <span class="text-sm p-2 font-medium select-none">{{ tooltip }}</span>
         </div>
     </transition>
