@@ -10,5 +10,11 @@
         "url": "mailto:contact@oscarranuare.dev",
         "icon": "hi-mail",
         "target": "_self"
+    },
+    {
+        "name": "LinkedIn",
+        "url": "https://www.linkedin.com/in/oscar-ranuare/",
+        "icon": "co-linkedin",
+        "target": "_blank"
     }
 ]
