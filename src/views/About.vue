@@ -1,5 +1,5 @@
 <template>
-    <div class="flex flex-col gap-8 text-2xl font-medium text-carbon/70 dark:text-bones/60">
+    <div class="flex flex-col gap-8 text-xl font-medium text-carbon/70 dark:text-bones/60">
         
         <div v-html="$t('about-me-message')"></div>
 
