@@ -25,7 +25,7 @@
                     </div>
                     <div class="absolute left-0 rounded-xl -bottom-2 lg:-bottom-4 h-1 w-12 bg-leaf"></div>
                 </div>
-                <p class="text-base md:text-xs lg:text-base xl:text-xs 2xl:text-lg text-carbon/90 dark:text-bones/90">{{ $t('projects-list.' + project.name + '.description') }}</p>
+                <p class="text-base md:text-xs lg:text-base xl:text-xs 2xl:text-lg font-medium text-carbon/90 dark:text-bones/90">{{ $t('projects-list.' + project.name + '.description') }}</p>
                 <div class="flex gap-3 flex-wrap">
                     <span v-for="(tag, index) in project.tags" :key="index" class="bg-gray-300/20 dark:bg-gray-300/5 px-2 rounded-full text-carbon dark:text-bones text-2xs lg:text-xs 2xl:text-base">{{ tag }}</span>
                 </div>
