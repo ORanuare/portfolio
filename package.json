@@ -10,6 +10,7 @@
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore"
   },
   "dependencies": {
+    "@vercel/analytics": "^1.2.2",
     "@vueuse/core": "^10.7.1",
     "oh-vue-icons": "^1.0.0-rc3",
     "pinia": "^2.1.7",

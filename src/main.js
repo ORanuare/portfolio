@@ -1,5 +1,6 @@
 import './assets/css/main.css'
 
+import { inject } from "@vercel/analytics"
 import { createApp } from 'vue'
 import { createPinia } from 'pinia'
 import { createI18n } from 'vue-i18n'
@@ -29,6 +30,8 @@ const i18n = createI18n({
     es: es_loc
   }
 })
+
+inject();
 
 const app = createApp(App)
 
