@@ -25,7 +25,7 @@
             </a>
             <span v-else-if="contact.type === 'copy'" @click="copyToClipboard(contact.value)">
                 <v-icon :name="contact.icon" scale="1.7" class="text-carbon dark:text-bones"/>
-                <Tooltip :tooltip="!copying ? contact.name : '¡Has copiado el '+contact.name+' al portapapeles!'" :tooltipId="contact.name"/>
+                <Tooltip :tooltip="!copying ? contact.name : '¡Has copiado el '+contact.name.toLowerCase()+' al portapapeles!'" :tooltipId="contact.name"/>
             </span>      
         </div>
     </div>
