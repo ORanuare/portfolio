@@ -1,5 +1,11 @@
 [
     {
+        "name":"kbod",
+        "visibility": "private",
+        "image": "/projects/kbod.webp",
+        "tags": ["Python", "Django", "PostgreSQL", "AWS", "Heroku", "JavaScript", "VueJS", "Vercel"]
+    },
+    {
         "name":"capturecgi",
         "visibility": "public",
         "image": "/projects/capturecgi.webp",
