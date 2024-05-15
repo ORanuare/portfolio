@@ -1,5 +1,12 @@
 [
     {
+        "name":"capturecgi",
+        "visibility": "public",
+        "image": "/projects/capturecgi.webp",
+        "link": "https://capturecgi.com/",
+        "tags": ["VueJs", "JavaScript", "HTML", "CSS", "AWS", "Vercel"]
+    },
+    {
         "name":"wiigo-us",
         "visibility": "public",
         "image": "/projects/appointments.webp",
