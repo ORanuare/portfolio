@@ -1,5 +1,12 @@
 [
     {
+        "name": "boostshop",
+        "visibility": "public",
+        "image": "/projects/boostshop.webp",
+        "link": "https://boostshop.cl",
+        "tags": ["Python", "Django", "PostgreSQL", "AWS", "Google Cloud", "JavaScript"]
+    },
+    {
         "name":"kbod",
         "visibility": "private",
         "image": "/projects/kbod.webp",
@@ -14,9 +21,8 @@
     },
     {
         "name":"wiigo-us",
-        "visibility": "public",
+        "visibility": "private",
         "image": "/projects/appointments.webp",
-        "link": "https://appointments.wiigo-us.com/",
         "tags": ["Python", "FastAPI", "PostgreSQL", "AWS", "JavaScript", "VueJS", "Vercel", "Heroku"]
     },
     {
@@ -30,12 +36,5 @@
         "visibility": "private",
         "image": "/projects/winseller.webp",
         "tags": ["Python", "Django", "PostgreSQL", "Google Cloud", "AWS", "JavaScript"]
-    },
-    {
-        "name": "boostshop",
-        "visibility": "public",
-        "image": "/projects/boostshop.webp",
-        "link": "https://boostshop.cl",
-        "tags": ["Python", "Django", "PostgreSQL", "AWS", "Google Cloud", "JavaScript"]
     }
 ]
