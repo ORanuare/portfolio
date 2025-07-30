@@ -59,20 +59,50 @@
         "icon": "vi-file-type-pgsql"
     },
     {
+        "name": "MongoDB",
+        "icon": "vi-file-type-mongo"
+    },
+    {
+        "name": "Redis",
+        "icon": "co-redis",
+        "fill": "#c02f1d"
+    },
+    {
         "name": "Linux",
         "icon": "fc-linux"
     },
     {
         "name": "Heroku",
         "icon": "si-heroku",
-        "customClass": "text-heroku"
+        "fill": "#6117b3"
     },
     {
         "name": "Google Cloud",
-        "icon": "fc-google"
+        "icon": "https://cdn.oscarranuare.dev/google-cloud.png",
+        "customClass": "text-carbon dark:text-bones",
+        "type": "link"
     },
     {
         "name": "AWS",
         "icon": "vi-file-type-aws"
+    },
+    {
+        "name": "Cloudflare",
+        "icon": "fa-cloudflare",
+        "fill": "#fbad41"
+    },
+    {
+        "name": "Railway",
+        "icon": "si-railway",
+        "customClass": "text-carbon dark:text-bones"
+    },
+    {
+        "name": "Node.js",
+        "icon": "vi-file-type-node"
+    },
+    {
+        "name": "Sentry",
+        "icon": "co-sentry",
+        "fill": "#812be0"
     }
 ]
