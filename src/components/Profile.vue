@@ -32,7 +32,8 @@
             <div class="flex gap-5 xl:gap-8 2xl:gap-12 flex-wrap">
                 <div v-for="(stack, index) in techStack" :key="index" class="relative" :id="'box_'+stack.name">
                     <Tooltip :tooltip="stack.name" :tooltipId="'box_'+stack.name"/>
-                    <v-icon :class="stack.customClass" :name="stack.icon" scale="2.5" />
+                    <img v-if="stack.type === 'link'" :src="stack.icon" :alt="stack.name" class="w-12 h-12" />
+                    <v-icon v-else :class="stack.customClass" :name="stack.icon" :fill="stack.fill" scale="2.5" />
                 </div>
             </div>
         </div>
