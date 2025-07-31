@@ -23,9 +23,9 @@
 <template>
   <main v-if="isRendered" class="flex justify-center min-h-screen w-full bg-bones dark:bg-carbon bg-[linear-gradient(to_right,#d8d8d830_1px,transparent_1px),linear-gradient(to_bottom,#d8d8d830_1px,transparent_1px)] dark:bg-[linear-gradient(to_right,#d8d8d809_1px,transparent_1px),linear-gradient(to_bottom,#d8d8d809_1px,transparent_1px)] bg-[size:24rem_24rem]">
 
-    <div class="flex flex-col md:flex-row w-[95%] xl:w-[85%] justify-end py-12 xl:py-24">
+    <div class="flex flex-col md:flex-row w-[95%] xl:w-[90%] justify-end py-12 xl:py-24">
       <Profile />
-      <div class="flex flex-col gap-16 w-full md:w-[50%] xl:w-[55%] overflow-auto mt-24 md:mt-0">
+      <div class="flex flex-col gap-16 w-full md:w-[60%] xl:w-[55%] overflow-auto mt-24 md:mt-0">
           <Tabs />
           <router-view v-slot="{ Component }">
             <transition name="fade" mode="out-in">
