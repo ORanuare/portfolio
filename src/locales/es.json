@@ -18,11 +18,11 @@
             "description": "Portafolio de CaptureCGI, ofrecen un servicio de imágenes de alta calidad, animaciones, recorridos y tours de realidad virtual 360 para arquitectura y bienes raíces."
         },
         "wiigo-us": {
-            "title": "Agenda Wiigo US",
+            "title": "Agenda Wiigo",
             "description": "Es una aplicación web que permite a los clientes de Wiigo US agendar videollamadas con el equipo. Puedes seleccionar una fecha, hora y el representante que te atenderá. Envía recordatorios por correo, y gestiona la disponibilidad de los representantes."
         },
         "clients-scrapper":{
-            "title": "Buscador de Clientes",
+            "title": "Busca-clientes",
             "description": "Con la ayuda de la API de Google Maps esta aplicación busca clientes potenciales en un área especifica y palabras claves indicadas. Dibuja un área en el mapa y luego busca los clientes, busca los correos, teléfonos de contacto y exporta la información en un archivo CSV de Excel."
         },
         "winseller":{
@@ -32,6 +32,10 @@
         "boostshop":{
             "title": "Boostshop",
             "description": "Una plataforma SaaS para los negocios que manejan inventario, ordenes, clientes y productos. Este fue mi primer proyecto como desarrollador full stack."
+        },
+        "tasks":{
+            "title": "App de Tareas",
+            "description": "Una aplicación de gestión de tareas que permite a los equipos gestionar sus tareas y seguir el progreso de cada una. Facilita el trabajo del equipo y les permite ser más productivos."
         }
     },
     "experiences":{

@@ -18,7 +18,7 @@
             "description": "CaptureCGI Portfolio produces high quality Images, Animations, Walkthroughs and 360 Virtual reality Tours for Architecture and Real Estate."
         },
         "wiigo-us":{
-            "title": "Wiigo US Appointments",
+            "title": "Wiigo Appointments",
             "description": "Web application that allows Wiigo US clients to schedule appointments with the team. You can select the date, time and the team member you want to meet with. Sends email reminders, and handles the agents availability."
         },
         "clients-scrapper":{
@@ -32,6 +32,10 @@
         "boostshop":{
             "title": "Boostshop",
             "description": "A SaaS platform for businesses to manage their inventory, orders, customers and products. This was my first project as a full-stack developer."
+        },
+        "tasks":{
+            "title": "Tasks App",
+            "description": "A project management app that allows the team to manage their tasks and follow the all the progress that has been made. This facilitates the work of the team and allows them to be more productive."
         }
     },
     "experiences":{

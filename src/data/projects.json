@@ -2,22 +2,28 @@
     {
         "name": "boostshop",
         "visibility": "public",
-        "image": "/projects/boostshop.webp",
-        "link": "https://boostshop.cl",
-        "tags": ["Python", "Django", "PostgreSQL", "AWS", "Google Cloud", "JavaScript"]
+        "image": "/projects/boostshop.jpg",
+        "link": "https://boostshop.io",
+        "tags": ["Python", "FastAPI", "PostgreSQL", "Railway", "AWS", "JavaScript", "Cloudflare", "Sentry", "Redis"]
+    },
+    {
+        "name":"capturecgi",
+        "visibility": "public",
+        "image": "/projects/capturecgi.jpg",
+        "link": "https://capturecgi.com/",
+        "tags": ["VueJs", "JavaScript", "HTML", "CSS", "AWS", "Vercel", "Cloudflare"]
+    },
+    {
+        "name":"tasks",
+        "visibility": "private",
+        "image": "/projects/tasks.jpg",
+        "tags": ["Python", "FastAPI", "PostgreSQL", "Railway", "AWS", "VueJs", "JavaScript"]
     },
     {
         "name":"kbod",
         "visibility": "private",
         "image": "/projects/kbod.webp",
         "tags": ["Python", "Django", "PostgreSQL", "AWS", "Heroku", "JavaScript", "VueJS", "Vercel"]
-    },
-    {
-        "name":"capturecgi",
-        "visibility": "public",
-        "image": "/projects/capturecgi.webp",
-        "link": "https://capturecgi.com/",
-        "tags": ["VueJs", "JavaScript", "HTML", "CSS", "AWS", "Vercel"]
     },
     {
         "name":"wiigo-us",
