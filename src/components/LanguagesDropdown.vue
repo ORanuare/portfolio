@@ -28,7 +28,7 @@
 
 <template>
     <transition name="fade" mode="out-in">
-        <div v-if="showDropdown" class="absolute flex gap-4 text-start items-center justify-start -bottom-14 w-56 text-bones bg-carbon dark:text-carbon dark:bg-bones rounded-lg p-2">
+        <div v-if="showDropdown" class="absolute flex gap-4 text-start items-center justify-start -bottom-14 w-auto text-bones bg-carbon dark:text-carbon dark:bg-bones rounded-lg p-2">
             <v-icon name="md-arrowdropdown-round" scale="2" class="absolute -top-5 left-0 text-carbon dark:text-bones rotate-180"/>
             
             <!-- Languages options -->
